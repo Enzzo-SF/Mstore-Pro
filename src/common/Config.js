@@ -4,15 +4,15 @@ import Images from './Images';
 import Constants from './Constants';
 import Icons from './Icons';
 
-const consumerKey = 'ck_4c5dea07e73878ceb71699f6e44a46daee5b19ba';
-const consumerSecret = 'cs_f3febffaafcddd76597641d740957f4b0b7673ee';
+const consumerKey = 'ck_289fdb5de6e00126448554280de3a40d89bf611f';
+const consumerSecret = 'cs_79df3987dde3c05cdf336a9b579c1b0f75e4915c';
 
 export default {
   /**
    * Step 1: change to your website URL and the wooCommerce API consumeKey
    */
   WooCommerce: {
-    url: 'https://demo.mstore.io/',
+    url: 'https://alll-shop.com/',
     consumerKey,
     consumerSecret,
   },
@@ -33,31 +33,31 @@ export default {
 
   HomeCategories: [
     {
-      category: 55,
+      category: 49,
       image: require('@images/categories_icon/ic_shorts.png'),
       colors: ['#4facfe', '#00f2fe'],
       label: 'sport',
     },
     {
-      category: 21,
+      category: 67,
       image: require('@images/categories_icon/ic_tshirt.png'),
       colors: ['#43e97b', '#38f9d7'],
       label: 'T-Shirts',
     },
     {
-      category: 208,
+      category: 72,
       image: require('@images/categories_icon/ic_panties.png'),
       colors: ['#fa709a', '#fee140'],
       label: 'Clothing',
     },
     {
-      category: 26,
+      category: 73,
       image: require('@images/categories_icon/ic_dress.png'),
       colors: ['#7F00FF', '#E100FF'],
       label: 'Dresses',
     },
     {
-      category: 24,
+      category: 50,
       image: require('@images/categories_icon/ic_glasses.png'),
       colors: ['#30cfd0', '#330867'],
       label: 'Bags',
@@ -65,31 +65,31 @@ export default {
   ],
   HomeCategories_AR: [
     {
-      category: 55,
+      category: 72,
       image: require('@images/categories_icon/ic_shorts.png'),
       colors: ['#4facfe', '#00f2fe'],
       label: 'لكن',
     },
     {
-      category: 21,
+      category: 73,
       image: require('@images/categories_icon/ic_tshirt.png'),
       colors: ['#43e97b', '#38f9d7'],
       label: 'تي شيرت',
     },
     {
-      category: 208,
+      category: 67,
       image: require('@images/categories_icon/ic_panties.png'),
       colors: ['#fa709a', '#fee140'],
       label: 'ملابس',
     },
     {
-      category: 26,
+      category: 49,
       image: require('@images/categories_icon/ic_dress.png'),
       colors: ['#7F00FF', '#E100FF'],
       label: 'فساتين',
     },
     {
-      category: 24,
+      category: 49,
       image: require('@images/categories_icon/ic_glasses.png'),
       colors: ['#30cfd0', '#330867'],
       label: 'أكياس',
